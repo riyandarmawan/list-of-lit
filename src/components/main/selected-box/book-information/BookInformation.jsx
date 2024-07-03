@@ -1,8 +1,8 @@
 import BookCover from "@components/main/selected-box/book-information/BookCover";
 
-export default function BookInformation({book}) {
+export default function BookInformation({ book }) {
   return (
-    <div className="flex items-center gap-4 flex-col md:flex-row lg:flex-col xl:flex-row">
+    <div className="flex flex-col items-center gap-4 md:flex-row lg:flex-col xl:flex-row">
       <BookCover src={book.cover} alt={book.title} />
       <div className="text-center">
         <h4 className="mb-6 font-heading text-xl font-bold">{book.title}</h4>
