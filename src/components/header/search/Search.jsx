@@ -1,11 +1,11 @@
 import FormSearch from "@components/header/search/FormSearch";
 
-export default function Search() {
+export default function Search({books}) {
   return (
     <div>
       <FormSearch />
-      <p className="font-light">
-        Found <span className="font-bold">4</span> books
+      <p className="text-center font-light">
+        Found <span className="font-bold">{books.length}</span> books
       </p>
     </div>
   );

@@ -4,7 +4,10 @@ export default {
   theme: {
     container: {
       center: true,
-      padding: "10rem",
+      padding: {
+        DEFAULT: "1rem",
+        md: "10rem",
+      },
     },
     extend: {
       colors: {
@@ -15,6 +18,8 @@ export default {
           DEFAULT: "#0C2D48",
           600: "#08233D",
           700: "#061A33",
+          800: "#031229",
+          900: "#020D22",
         },
       },
       fontFamily: {
