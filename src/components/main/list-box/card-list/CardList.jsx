@@ -7,7 +7,7 @@ export default function CardList({ books, selectedBook, onSelectedBook }) {
         <li
           key={book.id}
           onClick={() => onSelectedBook(book.id)}
-          className={`flex cursor-pointer items-center overflow-hidden rounded border border-primary-400 shadow shadow-primary-700 hover:bg-primary-400 sm:h-32 sm:flex-row sm:text-left ${book.id == selectedBook.id ? "active" : ""}`}
+          className={`flex cursor-pointer items-center overflow-hidden rounded border border-primary-400 shadow-md shadow-primary-800 hover:bg-primary-400 sm:h-32 sm:flex-row sm:text-left ${book.id == selectedBook.id ? "active" : ""}`}
         >
           <CardImg src={book.cover} alt={book.title} />
           <div className="p-2 sm:p-4">

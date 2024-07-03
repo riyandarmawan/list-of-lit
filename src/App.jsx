@@ -5,7 +5,8 @@ import Main from "@components/main/Main";
 import ListBox from "@components/main/list-box/ListBox";
 import CardList from "@components/main/list-box/card-list/CardList";
 import SelectedBox from "@components/main/selected-box/SelectedBox";
-import books from "@data/books";
+import Footer from "@components/Footer";
+import books from "@data/books.json";
 
 export default function App() {
   const [selectedBook, setSelectedBook] = useState(books[0]);
@@ -18,14 +19,19 @@ export default function App() {
     <div className="py-10 font-body text-white">
       <div className="container">
         <Header>
-          <Search books={books}/>
+          <Search books={books} />
         </Header>
         <Main>
           <ListBox>
-            <CardList books={books} selectedBook={selectedBook} onSelectedBook={handleSelectedBook} />
+            <CardList
+              books={books}
+              selectedBook={selectedBook}
+              onSelectedBook={handleSelectedBook}
+            />
           </ListBox>
           <SelectedBox book={selectedBook} />
         </Main>
+        <Footer />
       </div>
     </div>
   );
