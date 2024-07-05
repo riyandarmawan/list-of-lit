@@ -1,6 +1,8 @@
 import BookCover from "@components/main/selected-box/book-information/BookCover";
 
 export default function BookInformation({ book }) {
+  if (!Object.keys(book).length) return;
+
   return (
     <div className="flex flex-col items-center gap-4 md:flex-row lg:flex-col xl:flex-row">
       <BookCover src={book.cover} alt={book.title} />

@@ -9,6 +9,15 @@
     "plot": "The story concludes with Sarada gaining a deeper understanding of her parents and her own identity. She decides to follow her own path while cherishing the bonds she has with her family and friends. The manga ends on a hopeful note, showing the next generation of ninja ready to forge their own destinies, with Naruto, Sasuke, and their peers guiding them from the shadows."
   },
   {
+    "id": 10,
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIVQuqviLhMtnPwCEDWTyEgVtWP2nNY_s_sA&s",
+    "title": "Naruto: Kakashi Hiden - Lightning in the Icy Sky",
+    "writer": "Akira Higashiyama",
+    "publisher": "Shueisha",
+    "year": 2015,
+    "plot": "In this novel, Kakashi Hatake takes center stage as he navigates a new mission in the aftermath of the Fourth Shinobi World War. It explores Kakashi's leadership skills and his personal journey as he faces new challenges and threats to the Hidden Leaf Village."
+  },
+  {
     "id": 2,
     "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Attack_on_Titan_No_Regrets%2C_volume_1.jpg/220px-Attack_on_Titan_No_Regrets%2C_volume_1.jpg",
     "title": "Attack on Titan: No Regrets",
@@ -16,6 +25,69 @@
     "publisher": "Kodansha",
     "year": 2013,
     "plot": "This prequel tells the story of Levi Ackerman and how he came to join the Survey Corps. It explores his relationship with his mentor, Erwin Smith, and his early battles against the Titans. The manga delves into themes of sacrifice, duty, and the harsh realities of war."
+  },
+  {
+    "id": 11,
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn5r3ALYJPo5JFh2Kk93mN3WBrTSi3CUvCWQvJzFn0wtzK5TcZVx5p80QR&s=5",
+    "title": "Attack on Titan: Lost Girls",
+    "writer": "Hiroshi Seko",
+    "publisher": "Kodansha",
+    "year": 2015,
+    "plot": "This novel follows Annie Leonhart and Mikasa Ackerman in two separate stories that provide additional context to their characters and their lives beyond the main events of Attack on Titan. It offers insights into their motivations and struggles in a world threatened by Titans."
+  },
+  {
+    "id": 4,
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROf1AaLrCG4pyiIP2GzRWZ-DHJ1aWGdlUnwA&s",
+    "title": "Bleach: Can't Fear Your Own World",
+    "writer": "Tite Kubo",
+    "publisher": "Shueisha",
+    "year": 2017,
+    "plot": "Set after the events of the original Bleach series, this novel focuses on Shuhei Hisagi as he investigates a new threat to the Soul Society. It dives into the political intrigue and hidden secrets of the Soul Society, revealing more about the pasts of beloved characters and the dark history of the spiritual world."
+  },
+  {
+    "id": 13,
+    "cover": "https://m.media-amazon.com/images/I/61kJguHUwQL._AC_UF1000,1000_QL80_.jpg",
+    "title": "Bleach: We Do Knot Always Love You",
+    "writer": "Tite Kubo",
+    "publisher": "Shueisha",
+    "year": 2016,
+    "plot": "This novel focuses on the aftermath of the Thousand-Year Blood War arc, exploring the relationships and futures of the Soul Society characters. It provides closure and new beginnings for many beloved characters, offering fans a deeper look into their personal lives and aspirations."
+  },
+  {
+    "id": 8,
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZVMUWvP_mg18oImjriD1mCt9Ii8EzmkiQpw&s",
+    "title": "Dragon Ball Super: Broly",
+    "writer": "Akira Toriyama",
+    "publisher": "Shueisha",
+    "year": 2018,
+    "plot": "This manga adaptation tells the story of Broly, a powerful Saiyan warrior, and his encounter with Goku and Vegeta. It explores Broly's origins and his path to becoming one of the most formidable opponents in the Dragon Ball universe."
+  },
+  {
+    "id": 9,
+    "cover": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQbe0mdkd1JDKgquaKV2O_m8wA_sw7OfMLeIOpFiTb8skEpuzwn",
+    "title": "Fullmetal Alchemist: The Ties That Bind",
+    "writer": "Makoto Inoue",
+    "publisher": "Square Enix",
+    "year": 2010,
+    "plot": "Set after the events of Fullmetal Alchemist, this novel follows the Elric brothers as they embark on new adventures while grappling with the consequences of their past actions. It delves into themes of redemption, sacrifice, and the nature of alchemy."
+  },
+  {
+    "id": 6,
+    "cover": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQWqJTjUBZhtBhViBOoUdbPznbyQOkyhfasExMtKs7zaB1kk9SI",
+    "title": "One Piece: Ace's Story",
+    "writer": "Sho Hinata",
+    "publisher": "Shueisha",
+    "year": 2018,
+    "plot": "This novel delves into the backstory of Portgas D. Ace, exploring his adventures and growth before his encounter with Luffy. It sheds light on his time as a pirate and his relationships with other characters in the One Piece universe."
+  },
+  {
+    "id": 15,
+    "cover": "https://m.media-amazon.com/images/I/71AzE7D5IaL._AC_UF1000,1000_QL80_.jpg",
+    "title": "One Punch Man: Hero Perfection",
+    "writer": "ONE",
+    "publisher": "Shueisha",
+    "year": 2020,
+    "plot": "This light novel series expands on the world of One Punch Man, focusing on various heroes and their unique challenges in a world where Saitama's overwhelming power often overshadows their efforts. It offers new perspectives on heroism and the consequences of living in a superhero society."
   },
   {
     "id": 3,
@@ -27,21 +99,129 @@
     "plot": "This novel explores the backstory of L, the enigmatic detective from the original series. Set before the events of Death Note, it follows L as he solves a series of murders in Los Angeles, showcasing his deductive skills and introducing new characters who play pivotal roles in his life."
   },
   {
-    "id": 4,
-    "cover": "https://upload.wikimedia.org/wikipedia/en/3/3f/Bleach_%28manga%29_1.png",
-    "title": "Bleach: Can't Fear Your Own World",
-    "writer": "Tite Kubo",
+    "id": 12,
+    "cover": "https://m.media-amazon.com/images/I/A1l7LjigVIL._AC_UF1000,1000_QL80_.jpg",
+    "title": "Death Note: L Change the World",
+    "writer": "M",
     "publisher": "Shueisha",
-    "year": 2017,
-    "plot": "Set after the events of the original Bleach series, this novel focuses on Shuhei Hisagi as he investigates a new threat to the Soul Society. It dives into the political intrigue and hidden secrets of the Soul Society, revealing more about the pasts of beloved characters and the dark history of the spiritual world."
+    "year": 2007,
+    "plot": "In this novel, L faces a race against time as he tries to solve a complex case involving a deadly virus that could endanger humanity. It showcases L's brilliance and determination outside the realm of the Death Note, highlighting his efforts to protect the world from a catastrophic threat."
   },
   {
     "id": 5,
-    "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Boku_no_Hero_Academia_Volume_1.png/220px-Boku_no_Hero_Academia_Volume_1.png",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQJ4LE8WShc2BBFWqI0T6RkL9c-GIoOlzprQ&s",
     "title": "My Hero Academia: School Briefs",
     "writer": "Kohei Horikoshi",
     "publisher": "Shueisha",
     "year": 2019,
     "plot": "This light novel series provides a glimpse into the daily lives of the students of U.A. High School. It features slice-of-life stories and character interactions that aren't seen in the main manga, offering fans a deeper understanding of their favorite heroes-in-training and their journey to becoming pro heroes."
+  },
+  {
+    "id": 14,
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/25/My_Hero_Academia_Vigilantes_Volume_1.jpg",
+    "title": "My Hero Academia: Vigilantes",
+    "writer": "Hideyuki Furuhashi",
+    "publisher": "Shueisha",
+    "year": 2016,
+    "plot": "Set in the same universe as My Hero Academia, this manga spin-off follows the story of vigilantes who operate outside the law to protect the innocent from villains. It explores themes of justice, heroism, and the complexities of being a hero in a world full of challenges."
+  },
+  {
+    "id": 7,
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9_0B-nH7_wEpK569R28u7c7xgmspwFOBt4IbuU41EODavhGD_",
+    "title": "Tokyo Ghoul: Days",
+    "writer": "Sui Ishida",
+    "publisher": "Shueisha",
+    "year": 2014,
+    "plot": "A collection of short stories set in the Tokyo Ghoul universe, focusing on various characters and their struggles in a world where humans and ghouls coexist uneasily. Each story provides deeper insights into the dark and complex Tokyo Ghoul universe."
+  },
+  {
+    "id": 16,
+    "cover": "https://m.media-amazon.com/images/I/81jHiI3wQlL._AC_UF1000_.jpg",
+    "title": "Harry Potter and the Philosopher's Stone",
+    "writer": "J.K. Rowling",
+    "publisher": "Bloomsbury Publishing",
+    "year": 1997,
+    "plot": "The first book in the Harry Potter series introduces us to the young wizard Harry Potter as he discovers his magical heritage and begins his journey at Hogwarts School of Witchcraft and Wizardry."
+  },
+  {
+    "id": 17,
+    "cover": "https://m.media-amazon.com/images/I/51flqvyJh8L._AC_UY1000_.jpg",
+    "title": "The Hobbit",
+    "writer": "J.R.R. Tolkien",
+    "publisher": "Allen & Unwin",
+    "year": 1937,
+    "plot": "Bilbo Baggins, a hobbit, embarks on an unexpected adventure to help a group of dwarves reclaim their homeland from a dragon named Smaug."
+  },
+  {
+    "id": 18,
+    "cover": "https://m.media-amazon.com/images/I/91gpcX7nF8L._AC_UY1000_.jpg",
+    "title": "1984",
+    "writer": "George Orwell",
+    "publisher": "Secker & Warburg",
+    "year": 1949,
+    "plot": "Set in a dystopian future, the novel follows Winston Smith, who struggles against the totalitarian regime led by the omnipresent Big Brother."
+  },
+  {
+    "id": 19,
+    "cover": "https://m.media-amazon.com/images/I/71vP2LQeGgL._AC_UY1000_.jpg",
+    "title": "To Kill a Mockingbird",
+    "writer": "Harper Lee",
+    "publisher": "J.B. Lippincott & Co.",
+    "year": 1960,
+    "plot": "The story, narrated by Scout Finch, revolves around her father, Atticus Finch, as he defends a black man wrongly accused of raping a white woman in 1930s Alabama."
+  },
+  {
+    "id": 20,
+    "cover": "https://m.media-amazon.com/images/I/91fWE-C1L2L._AC_UY1000_.jpg",
+    "title": "The Great Gatsby",
+    "writer": "F. Scott Fitzgerald",
+    "publisher": "Charles Scribner's Sons",
+    "year": 1925,
+    "plot": "Set in the Jazz Age, the novel explores themes of decadence, idealism, resistance to change, social upheaval, and excess, creating a portrait of the Roaring Twenties that has been described as a cautionary tale regarding the American Dream."
+  },
+  {
+    "id": 21,
+    "cover": "https://m.media-amazon.com/images/I/91IQnv6eZGL._AC_UY1000_.jpg",
+    "title": "The Catcher in the Rye",
+    "writer": "J.D. Salinger",
+    "publisher": "Little, Brown and Company",
+    "year": 1951,
+    "plot": "Holden Caulfield, a teenager, experiences alienation and cynicism as he wanders through New York City after being expelled from an elite prep school."
+  },
+  {
+    "id": 22,
+    "cover": "https://m.media-amazon.com/images/I/91F9Nj+o5mL._AC_UY1000_.jpg",
+    "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "writer": "C.S. Lewis",
+    "publisher": "Geoffrey Bles",
+    "year": 1950,
+    "plot": "Four siblings travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion."
+  },
+  {
+    "id": 23,
+    "cover": "https://m.media-amazon.com/images/I/71zJj4RJgWL._AC_UY1000_.jpg",
+    "title": "The Girl with the Dragon Tattoo",
+    "writer": "Stieg Larsson",
+    "publisher": "Norstedts Förlag",
+    "year": 2005,
+    "plot": "Journalist Mikael Blomkvist is aided in his search for a woman who has been missing for forty years by Lisbeth Salander, a young computer hacker."
+  },
+  {
+    "id": 24,
+    "cover": "https://m.media-amazon.com/images/I/81s30IRQRwL._AC_UY1000_.jpg",
+    "title": "The Hunger Games",
+    "writer": "Suzanne Collins",
+    "publisher": "Scholastic Corporation",
+    "year": 2008,
+    "plot": "In a dystopian future, the totalitarian nation of Panem is divided into 12 districts and the Capitol. Each year two young representatives from each district are selected by lottery to participate in The Hunger Games. Part entertainment, part brutal retribution for a past rebellion, the televised games are broadcast throughout Panem."
+  },
+  {
+    "id": 25,
+    "cover": "https://m.media-amazon.com/images/I/91B8k2pAT-L._AC_UY1000_.jpg",
+    "title": "The Alchemist",
+    "writer": "Paulo Coelho",
+    "publisher": "Harper & Row",
+    "year": 1988,
+    "plot": "Santiago, an Andalusian shepherd boy, yearns to travel in search of a worldly treasure. His journey teaches him valuable lessons about life, love, and destiny."
   }
 ]
