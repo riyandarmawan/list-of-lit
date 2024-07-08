@@ -7,18 +7,30 @@ import SelectedBox from "@components/main/selected-box/SelectedBox";
 import Footer from "@components/Footer";
 import books from "@data/books.json";
 import FormSearch from "@components/header/search/FormSearch";
+import Loading from "@components/Loading";
 
 export default function App() {
   const [searchedBooks, setSearchedBooks] = useState([]);
   const [selectedBook, setSelectedBook] = useState([]);
+  const [loading, setLoading] = useState(false);
 
-  function handleSearchedBooks(keyword) {
-    setSearchedBooks(
-      books.filter((book) =>
-        book.title.toLowerCase().includes(keyword.toLowerCase()),
-      ),
-    );
-    setSelectedBook([]);
+  async function handleSearchedBooks(keyword) {
+    setLoading(true);
+    try {
+      const result = await new Promise((resolve) => {
+        setTimeout(() => {
+          resolve(
+            books.filter((book) =>
+              book.title.toLowerCase().includes(keyword.toLowerCase()),
+            ),
+          );
+        }, 500);
+      });
+      setSearchedBooks(result);
+      setSelectedBook([]);
+    } finally {
+      setLoading(false);
+    }
   }
 
   function handleSelectedBook(id) {
@@ -29,13 +41,13 @@ export default function App() {
     <div className="py-10 font-body text-white">
       <div className="container">
         <Header>
-          <Search books={!searchedBooks ? searchedBooks : books}>
+          <Search books={searchedBooks}>
             <FormSearch onSearchedBooks={handleSearchedBooks} />
           </Search>
         </Header>
         <Main>
           <ListBox
-            books={!searchedBooks ? searchedBooks : books}
+            books={searchedBooks}
             selectedBook={selectedBook}
             onSelectedBook={handleSelectedBook}
           />
@@ -43,6 +55,7 @@ export default function App() {
         </Main>
         <Footer />
       </div>
+      {loading && <Loading />}
     </div>
   );
 }
