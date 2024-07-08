@@ -5,9 +5,10 @@ import Main from "@components/main/Main";
 import ListBox from "@components/main/list-box/ListBox";
 import SelectedBox from "@components/main/selected-box/SelectedBox";
 import Footer from "@components/Footer";
-import books from "@data/books.json";
+import fetchBooks from "@apis/books";
 import FormSearch from "@components/header/search/FormSearch";
 import Loading from "@components/Loading";
+import BookInformation from "@components/main/selected-box/book-information/BookInformation";
 
 export default function App() {
   const [searchedBooks, setSearchedBooks] = useState([]);
@@ -17,24 +18,19 @@ export default function App() {
   async function handleSearchedBooks(keyword) {
     setLoading(true);
     try {
-      const result = await new Promise((resolve) => {
-        setTimeout(() => {
-          resolve(
-            books.filter((book) =>
-              book.title.toLowerCase().includes(keyword.toLowerCase()),
-            ),
-          );
-        }, 500);
-      });
-      setSearchedBooks(result);
+      const books = await fetchBooks(keyword);
+      setSearchedBooks(books);
       setSelectedBook([]);
+    } catch (error) {
+      console.error("Error fetching books:", error);
+      setSearchedBooks([]);
     } finally {
       setLoading(false);
     }
   }
 
   function handleSelectedBook(id) {
-    setSelectedBook(books.find((book) => book.id === id));
+    setSelectedBook(searchedBooks.find((book) => book.id === id));
   }
 
   return (
@@ -51,7 +47,9 @@ export default function App() {
             selectedBook={selectedBook}
             onSelectedBook={handleSelectedBook}
           />
-          <SelectedBox book={selectedBook} />
+          <SelectedBox>
+            <BookInformation book={selectedBook} />
+          </SelectedBox>
         </Main>
         <Footer />
       </div>

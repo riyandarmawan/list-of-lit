@@ -6,8 +6,9 @@ export default function Footer() {
       <p className="text-center">
         &copy; <time dateTime={currentYear}>{currentYear}</time>{" "}
         <a
-          href=""
+          href="https://github.com/riyandarmawan/list-of-lit"
           title="Visit List of Lit"
+          target="_blank"
           className="font-semibold hover:opacity-90"
         >
           List of Lit
