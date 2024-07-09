@@ -2,7 +2,7 @@
 
 Welcome to **List of Lit**, your ultimate book search engine! This repository contains the code for the List of Lit website, where users can discover, search, and explore a vast collection of books across all genres.
 
-Live demo: 
+Live demo: https://riyandarmawan.github.io/list-of-lit/
 
 ## Technology used
 - **Frontend:**
