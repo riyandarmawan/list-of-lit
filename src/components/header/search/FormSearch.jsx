@@ -23,7 +23,7 @@ export default function FormSearch({ onSearchedBooks }) {
       <input
         type="text"
         name="keyword"
-        placeholder="Search books..."
+        placeholder="e.g. Atomic Habits by James Clear"
         autoFocus
         autoComplete="off"
         value={keyword}
