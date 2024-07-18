@@ -7,8 +7,10 @@ export default function books(keyword) {
     query = keyword;
   }
 
+  const apiKey = import.meta.env.VITE_API_KEY;
+
   return fetch(
-    `https://www.googleapis.com/books/v1/volumes?q=${query}&maxResults=40&langRestrict=en&key=AIzaSyAXFPhH1KDvy6HQZwnoDKhEbFt0pncfVLk`,
+    `https://www.googleapis.com/books/v1/volumes?q=${query}&maxResults=40&langRestrict=en&key=${apiKey}`,
   )
     .then((response) => {
       if (!response.ok) throw new Error("Network response was not ok");
